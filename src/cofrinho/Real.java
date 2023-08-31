@@ -2,8 +2,8 @@ package cofrinho;
 
 public class Real  extends Moeda{
     private double valorReal = 1;
-	public Real(String pais, double valor) {
-		super(pais, valor);
+	public Real(String tipo, double valor) {
+		super(tipo, valor);
 	}
 	
 	@Override

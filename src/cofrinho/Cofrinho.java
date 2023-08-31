@@ -18,19 +18,19 @@ public class Cofrinho {
      	System.out.println("Escolha a moeda que deseja remover:");
     	int index = 0;
         for (Moeda moeda : moedas) {
-            System.out.println((index++)+" - "+moeda.getPais() + " - Valor: " + moeda.getValor());
+            System.out.println((index++)+" - "+moeda.getTipo() + " - Valor: " + moeda.getValor());
         }
         int moedaRemoção = scanner.nextInt(); 
         moedas.remove(moedaRemoção);
         
         for (Moeda moeda : moedas) {
-            System.out.println(moeda.getPais() + " - Valor: " + moeda.getValor());
+            System.out.println(moeda.getTipo() + " - Valor: " + moeda.getValor());
         }
     }
 
     public void listarMoedas() {
         for (Moeda moeda : moedas) {
-            System.out.println(moeda.getPais() + " - Valor: " + moeda.getValor());
+            System.out.println(moeda.getTipo() + " - Valor: " + moeda.getValor());
         }
     }
 

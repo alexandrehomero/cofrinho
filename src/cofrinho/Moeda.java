@@ -1,20 +1,20 @@
 package cofrinho;
 
 public abstract class Moeda {
-    private String pais;
+    private String tipo;
     private double valor;
 
-    public Moeda(String pais, double valor) {
-        this.pais = pais;
+    public Moeda(String tipo, double valor) {
+        this.tipo = tipo;
         this.valor = valor;
     }
 
-    public String getPais() {
-        return pais;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setPais(String pais) {
-        this.pais = pais;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public double getValor() {

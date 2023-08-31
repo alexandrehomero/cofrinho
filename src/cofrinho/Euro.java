@@ -2,8 +2,8 @@ package cofrinho;
 
 public class Euro extends Moeda{
     private double valorEuro = 5.37;
-	public Euro(String pais, double valor) {
-		super(pais, valor);
+	public Euro(String tipo, double valor) {
+		super(tipo, valor);
 	}
 	
 	@Override
